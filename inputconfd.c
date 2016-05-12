@@ -70,6 +70,7 @@ static void usage(bool error)
 {
 	fprintf(error ? stderr : stdout,
 		"usage: %s [--keyboard=CMD] [--mouse=CMD]\n"
+		"\n"
 		"Listen to udev events and run a command when a keyboard or mouse is plugged in\n"
 		"\n"
 		"Hooks:\n"
